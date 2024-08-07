@@ -1,0 +1,30 @@
+.component {
+  display: flex;
+  flex-direction: column;
+  padding-right: 70px;
+  width: 326px;
+  height: 126px;
+}
+
+.component .valuecontainer {
+  display: flex;
+  align-items: center;
+}
+.component .value {
+  font-size: 44px;
+  font-weight: bold;
+  color: #333;
+  display: inline;
+}
+
+.component .currency {
+  font-size: 20px;
+  color: #666;
+  margin-left: 2px;
+  margin-bottom: 20px;
+}
+
+.component .change {
+  font-size: 14px;
+  color: #16b00b;
+}
